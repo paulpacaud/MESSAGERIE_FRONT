@@ -1,0 +1,44 @@
+.title {
+  color: #7e7ec4
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  border: solid;
+  border-radius: 5px;
+  background-color: #e2dfdf;
+  color: black;
+}
+
+.submit-button {
+  background-color: #7e7ec4;
+  color: white;
+  border: solid;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.message-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.message-content {
+  flex-grow: 1;
+}
+
+.trash-icon {
+  width: 24px;
+  height: auto;
+  margin-left: 20px;
+  cursor: pointer;
+}
